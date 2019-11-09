@@ -68,6 +68,33 @@ contract Ballot {
         voters[voter].canVote = true;
     }
 
+    function vote(uint proposal) public {
+        Voter storage sender = voters[msg.sender];
+        require(sender.canVote, "Has no right to vote");
+        require(!sender.voted, "Already voted");
+        sender.voted = true;
+        sender.vote = proposal;
+        proposals[proposal].voteCount += 1;
+
+    }
+
+    // *** Here it returns a single winner, have to refactor for multiple winnners ***
+    function winningProposal() public view returns (uint winningProposal_) {
+        uint winningVoteCount = 0;
+        for (uint p = 0; p < proposals.length; p++) {
+            if (proposals[p].voteCount > winningVoteCount) {
+                winningVoteCount = proposals[p].voteCount;
+                winningProposal_ = p;
+            }
+        }
+    }
+
+    function winnerName() public view
+            returns (bytes32 winnerName_)
+    {
+        winnerName_ = proposals[winningProposal()].name;
+    }
+
 
     }
 
