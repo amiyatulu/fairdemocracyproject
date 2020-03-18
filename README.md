@@ -1,9 +1,13 @@
 #Shivarthu
 
 
-Democracy is about fair and equal treatment of everyone in a country. But it becomes unrealistic to achieve when political parties have their conflict of interest, and leaders don’t have the expertise to make evidence-based policies and neither have the skill and manpower for solving problems that surround our society and ecosystem. The new fair democracy provides an elegant way of governance that separates the representative responsibility according to their specialization and can grow into any complexity. The governance is divided into various departments, and each department is supervised by representatives with expertise in the field. Voters need to have enough knowledge about the departments and their problems, in order to vote for the selecting representatives of a department. The selection process of representatives is “difficult in and easy out”, which allows only utilitarian actors to hold the responsibility, weeding out frivolous ones.   
+Democracy is about fair and equal treatment of everyone in a country. But it becomes unrealistic to achieve when political parties have their conflict of interest, and leaders don’t have the expertise to make evidence-based policies and neither have the skill and manpower for solving problems that surround our society and ecosystem. The new fair democracy provides an elegant way of governance that separates the representative responsibility according to their specialization and can grow into any complexity. The governance is divided into various departments, and each department is supervised by representatives with expertise in the field. Voters are rational and need to have enough knowledge about the departments and the department problems, in order to vote for the selecting representatives of a department. The selection process of representatives is “difficult in and easy out”, which allows only utilitarian actors to hold the responsibility, weeding out frivolous ones. 
 
-https://iambrainstorming.wordpress.com/2019/01/11/the-whole-process-of-voting-in-a-dpos-country/   
+https://shivarthu.reaudito.com/   
+
+[WHITEPAPER](https://shivarthu.reaudito.com/paper/Shivarthu_whitepaper.pdf)
+
+
 
    
 1) Fair (treating people equally without favoritism or discrimination) and equal opportunity to succeed for each and everyone
