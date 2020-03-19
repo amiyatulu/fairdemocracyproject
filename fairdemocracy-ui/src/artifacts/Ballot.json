@@ -5039,12 +5039,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xc6F3d186f9752BFc223A5F01D8c6C61F1788F3C8",
-      "transactionHash": "0xc8ef7df5a63c5ea06d0f3d67a7240be6c6d4433a764c4b480701782e3e9bea46"
+      "address": "0xB929B577ab8cb59B28d396fD8Ac559cb62001785",
+      "transactionHash": "0xa7b664b57cf09f5e5067be6f60f15a46eeaaae0435500a7e01bd5bf5ee52ddca"
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-03-18T04:27:44.132Z",
+  "updatedAt": "2020-03-19T08:05:28.589Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
