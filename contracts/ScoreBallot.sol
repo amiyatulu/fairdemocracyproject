@@ -27,10 +27,11 @@ contract ScoreBallot is Ownable {
         uint32 totalScore; // Total votes got in score voting
         bytes32 name;
         address representativesAddress; // Address of the nominees in the election
+        bytes32 departmentCode;
+        uint votingCycle;
     }
 
     struct Poll {
-        uint32 _commitPhaseLengthInSeconds;
         bytes32 departmentCode;
         uint votingCycle; // 1,2,3 etc every time voting takes place
     }
@@ -40,10 +41,18 @@ contract ScoreBallot is Ownable {
         bool canVote; // If true, the voter can vote
         bool voted; // if true, the person already voted
         bytes32 departmentCode; // Code of the department
+        uint votingCycle;
     }
 
     function setCommitPhaseLengthInSeconds(uint _commitPhaseLengthInSeconds) external onlyOwner {
         commitPhaseLengthInSeconds = _commitPhaseLengthInSeconds;
     }
+
+    function makePoll(
+        bytes32 departmentCode
+    )
+    public 
+
+
 
 }
