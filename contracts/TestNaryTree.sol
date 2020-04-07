@@ -19,4 +19,8 @@ contract TestNaryTee {
         );
     }
 
+      function _set(bytes32 _key, bytes32 _value, bytes32 _ID) public {
+        sortitionSumTrees.set(_key, _value, _ID);
+    }
+
 }
